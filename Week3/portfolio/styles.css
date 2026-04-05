@@ -1,0 +1,172 @@
+* {
+    --base-color: #030119;
+    --secondary-color: #0F5F5F;
+    --tertiary-color: #CF5C36;
+    --accent-color: #EFC88B;
+    --light-color: #EEE5E9;
+}
+
+body {
+    background-color: #030119;
+    opacity: 1;
+    background: linear-gradient(135deg, #0F5F5F55 25%, transparent 25%) -29px 0/ 58px 58px, linear-gradient(225deg, #0F5F5F 25%, transparent 25%) -29px 0/ 58px 58px, linear-gradient(315deg, #0F5F5F55 25%, transparent 25%) 0px 0/ 58px 58px, linear-gradient(45deg, #0F5F5F 25%, #030119 25%) 0px 0/ 58px 58px;
+    padding: 0px 50px 0px;
+    
+}
+
+header {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: "Eczar";
+    font-size: 60px;
+    text-shadow: 2px 2px 0px var(--accent-color);
+    margin: 0;
+    letter-spacing: 15px;
+}
+
+#subtitle {
+    font-family: "Work Sans";
+    color: var(--accent-color);
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.title {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    font-family: "Eczar";
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 15px;
+    padding-left: 20px;
+}
+
+.title::first-letter {
+    font-size: 60px;
+}
+
+.atAGlance {
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    padding-bottom: 1px;
+}
+
+.atAGlance h2 {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    font-family: "Eczar";
+    text-shadow: 2px 2px 0px var(--accent-color);
+    margin: 0;
+    letter-spacing: 15px;
+    padding-left: 20px;
+}
+
+.box {
+    flex: auto;
+    background-color: var(--base-color);
+    font-family: "Work Sans";
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 800px;
+    min-height: 140px;
+    border: 1px solid var(--accent-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.box h3 {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    font-family: "Eczar";
+}
+
+.myWork {
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    padding-bottom: 1px;
+}
+
+.myWork h2 {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    font-family: "Eczar";
+    text-shadow: 2px 2px 0px var(--accent-color);
+    margin: 0;
+    letter-spacing: 15px;
+    padding-left: 20px;
+}
+
+.myWork img {
+    margin: 10px;
+    width: 250px;
+    border: 2px dashed var(--base-color);
+    transition-duration: 1.5s;
+}
+
+.myWork img:hover {
+    width: 300px;
+}
+
+.imgBox {
+    flex: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+
+.favoriteCartoons {
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    padding-bottom: 1px;
+}
+
+.favoriteCartoons h2 {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    font-family: "Eczar";
+    text-shadow: 2px 2px 0px var(--accent-color);
+    margin: 0;
+    letter-spacing: 15px;
+    padding-left: 20px;
+}
+
+.favoriteCartoons img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    filter: grayscale(100%);
+    transition-duration: 1.5s;
+}
+
+.favoriteCartoons img:hover {
+    filter: grayscale(0%);
+}
+
+footer {
+    color: var(--tertiary-color);
+    background-color: var(--base-color);
+    font-family: "Eczar";
+    margin-bottom: 20px;
+    letter-spacing: 15px;
+    padding-left: 20px;
+}
+
+footer p {
+    color: var(--accent-color);
+    letter-spacing: 0px;
+    font-family: "Work Sans";
+    padding-bottom: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+    
+        body {
+            background-color: maroon;
+        }
+    
+        .card {
+            height: 750px;
+            width: 500px;
+            background-color: aliceblue;
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 0px 0px;
+            transition-duration: 1.5s;
+        }
+
+        .card:hover {
+            box-shadow: 15px 0px;
+        }
+    
+        .card img {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+    
+        .card h1 {
+            color: darkred;
+            font-family: 'Creepster';
+            font-size: 38px;
+        }
+    
+        .card p {
+            color: darkred;
+            font-family: monospace;
+            font-size: 15px;
+        }
+    
+        .card button {
+            background-color: darkred;
+            color: aliceblue;
+            font-family: monospace;
+            border: 2px solid black;
+            height: 75px;
+            padding: 10px;
+        }
+
+        .card button:hover {
+            background-color: aliceblue;
+            color: darkred;
+        }
+
+        .card button a {
+            color: black;
+        }
+
+        .card button a:visited {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="./assets/crazy_stock_img.jpg">
+        <h1>HAS THIS EVER HAPPENED TO YOU????</h1>
+        <p>Wow, that's really awful. I'm sorry. I hope you can recover from that traumatizing experience one day. I mean, really - a clown coming for your teeth in the dentist's chair? They're not supposed to be there! They're limited to the circus and occasionally a movie theater! Why is a clown at the dentist!?</p>
+        <p>If you or someone you know has been traumatized by dentist clowns, please call this hotline:</p>
+        <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Trauma From Chainsaw Wielding Dentist Clown Hotline</a></button>
+    </div>
+</body>
+</html>
