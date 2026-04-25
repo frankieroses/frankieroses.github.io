@@ -1,0 +1,99 @@
+* {
+    font-family:monospace;
+    margin: 0;
+}
+
+nav {
+    
+    position: fixed;
+    top: -100px;
+    left: 0px;
+    width: 100vw;
+    height: 50;
+    padding: 25px;
+    transition: top 1s ease-in;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0; 
+    margin: 0 auto;
+    top: 0px; 
+    left: 0px; 
+}
+
+.lightNav {
+    background-color: black;
+    color: white;
+}
+
+.darkNav {
+    background-color: white;
+    color: black;
+}
+
+.lightDiv {
+    flex: auto;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 10em;
+    max-width: 800px;
+    min-height: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.darkDiv {
+    flex: auto;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 10em;
+    max-width: 800px;
+    min-height: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.lightText {
+    color: black;
+    background-color: white;
+    border: .5px solid grey;
+    margin: 12px 0;
+    width: auto;
+    min-height: 200px;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.darkText {
+    color: white;
+    background-color: black;
+    border: .5px solid grey;
+    margin: 12px 0;
+    width: auto;
+    min-height: 200px;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.lightBg {
+    background-color: white;
+}
+
+.darkBg {
+    background-color: black;
+}
+
+
+
